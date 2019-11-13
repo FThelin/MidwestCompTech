@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css?family=Anton|Dosis&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Dosis', sans-serif;    
+}
+
+.flex {
+    display: flex;
+}
+
+.middle {
+    align-items: center;
+    justify-content: center;
+}
+
+.shadow-box {
+    background-color: white;
+    border: 1px solid rgb(209, 209, 209);
+    box-shadow: 2px 2px 8px rgb(209, 209, 209);
+}

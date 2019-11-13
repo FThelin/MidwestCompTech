@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script src="https://kit.fontawesome.com/8bcd668c2a.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/header.contact.css">
+    <link rel="stylesheet" href="css/main.contact.css"> 
+    <link rel="stylesheet" href="css/footer.css">
+    <link rel="stylesheet" href="css/section.css">
+    <title>Midwester Computer Technologies</title>
+</head>
+<body>
+    <!-- HEADER/NAV -->
+    <header class="flex middle">        
+        <ul class="flex">
+            <li>
+                <a href="index.html">Home</a>
+            </li>
+            <li>
+                <a href="#">Internet Service & Web Design</a>
+            </li>
+            <li>
+                <a href="#">Graphic Art & Advertisement</a>
+            </li>
+            <li>
+                <a href="#">PC & Peripheral Sales</a>
+            </li>
+            <li>
+                <a href="contact.html">Contact</a>
+            </li>            
+        </ul>
+        <div class="icon">
+            <i class="fas fa-bars"></i> 
+        </div>             
+    </header>
+
+    <!-- FORM SECTION -->
+    <main>
+        <div class="contact shadow-box">
+            <form>
+                <ledgend>
+                    <h2>Contact MCT for ALL of your PC needs.</h2>
+
+                    <label for="area">Regarding:</label>
+                    <select name="area" id="area" class="form-size">
+                        <option value="webdesign">Web Design</option>
+                        <option value="art">Graphic Art</option>
+                        <option value="hardware">Hardware</option>
+                        <option value="other">Other</option>
+                    </select>
+                    <label for="fn">First name:</label>
+                    <input id="fn" class="form-size" type="text"  placeholder="First name...">
+                    <label for="ln"> Last name:</label><br>
+                    <input id="ln" class="form-size" type="text" placeholder="Last name...">
+
+                    <label for="email"> Email:</label><br>
+                    <input id="email" class="form-size" type="email" id="email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$">
+
+                    <label for="textarea"> Message:</label>
+
+                    <textarea id="textarea" class="form-size" rows="10" col="40" minlength="10" maxlength="200"></textarea>
+
+                    <label for="private">Private</label>
+                    <input  id="private" type="radio" name="name" value="private">
+                    <label for="business">Business</label>
+                    <input  id="business" type="radio" name="name" value="business" checked>
+
+                    <input class="form-size" type="submit" value="Submit">
+                </ledgend>
+            </form>
+
+        </div>
+        <div class="map shadow-box">
+            <p>MIDWEST COMPUTER TECHNOLOGIES</p>
+            <p>P.O. Box 7031</p>
+            <p style="margin-bottom: 2rem;">Columbia, MO 65205</p>
+
+            <iframe width='100%;' height='100%' id='mapcanvas' src='https://maps.google.com/maps?q=Columbia,%20MO%2065205&amp;t=&amp;z=10&amp;ie=UTF8&amp;iwloc=&amp;output=embed' frameborder='0' scrolling='no' marginheight='0' marginwidth='0'>
+                <div class="zxos8_gm"><a rel="nofollow"  href="https://sites.google.com/site/zygotemaria/nokia-8-1-contracts">this</a></div>
+                <div style='overflow:hidden;'><div id='gmap_canvas' style='height:100%;width:100%;'></div></div>
+                <div>                    
+            </iframe>  
+            <div class="opening-hours">
+                <h3>Opening hours</h3>
+                <ul id="days-of-week">
+                    <li>Monday: 9AM - 17PM</li>
+                    <li>Tuesday: 9AM - 17PM</li>
+                    <li>Wednesday: 9AM - 17PM</li>
+                    <li>Thursday: 9AM - 17PM</li>
+                    <li>Friday: 9AM - 17PM</li>
+                    <li>Saturday: <span>Closed</span></li>
+                    <li>Sunday: <span>Closed</span></li>
+                </ul>
+            </div>
+        </div>
+    </main>
+
+    <!-- FOOTER -->
+    <footer class="flex">
+            <div class="flex">
+                <div class="footer-col-1"><i class="fab fa-facebook-square fa-2x"></i></div>
+                <div class="footer-col-2"><i class="fab fa-twitter fa-2x"></i></div>
+                <div class="footer-col-3"><i class="fab fa-youtube fa-2x"></i></div>
+                <div class="footer-col-4"><i class="fab fa-linkedin fa-2x"></i></div>
+            </div>
+            <div class="flex">
+                <div class="flex middle footer-col-5"><a href="#">Copyright</a><p>&copy; 1995 - present</p></div>
+            </div>        
+    </footer>
+   
+<script src="js/contact.js"></script>    
+</body>
+</html>

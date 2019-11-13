@@ -1,0 +1,33 @@
+Vi har valt att göra om en moderniserad version av hemsidan till ett företag som heter Midwest Computer Technologies.
+
+Det är ett företag som specialiserat sig inom webdesign, vi tycke där att det var passade som val.
+
+
+ 
+
+Vi valde att göra om förstasidan som består av text och vidare länkar till dessas arbete med internetservice, webdesign, grafiskkonst och hårdvara.
+
+Där har vi delat in informationen i grid och lagt till modern style för att skapa intresse och tydligare information.
+
+
+ 
+
+Den andra sidan vi gjorde vara deras kontakt del som bestod av en simpel email icon och en adress till deras kontor.
+
+Där valde vi istället att göra ett formulär med ett pattern, samt en embedded google karta för att lättare kunna se var dom befinner geografiskt.
+
+
+ På de två sidor vi jobbat med har inga egentliga avgränsningar gjorts. Listan över alla deras tjänster har vi minskat ner. 
+
+
+ 
+
+http://www.rulen.com/midwest/index2.htm
+
+
+ 
+
+
+ 
+
+Simon Beijer & Fredrik Thelin FED19
